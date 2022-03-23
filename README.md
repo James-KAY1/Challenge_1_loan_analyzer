@@ -1,1 +1,6 @@
-# Challenge_1_loan_analyzer
+# Challenge 1
+Contributor: James Handral
+
+## Overview
+
+## Libraries and Dependencies
