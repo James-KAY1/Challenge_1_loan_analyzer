@@ -80,7 +80,7 @@ print((f"The future value and the remaining months of maturity of the selected l
 
 # YOUR CODE HERE!
 present_value_of_selected_loan = (future_value_of_loan / (1 + (.20/12)) ** remaining_months_for_maturity_of_loan)
-print (present_value_of_selected_loan)
+print (f"The present value of the selected loan: {present_value_of_selected_loan: .2f}")
 pv_vs_loan_price = present_value_of_selected_loan - loan.get("loan_price")
 
 # If Present Value represents what the loan is really worth, does it make sense to buy the loan at its cost?
